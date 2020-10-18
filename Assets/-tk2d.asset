@@ -1,0 +1,999 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex:
+  - assetGUID: 18a39674a9b14f54b97497254e83b349
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 68cc4da10d501f9439d1507a1a2c46c1
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: eba2002e1b52e457f811082cb3edaa4d
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: d5d0ec2cdeddb3649879a1d2664ade08
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: 6b3e0e9de7b226b48b497c57e6780d22
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex:
+  - assetGUID: 063b15d80dbb4604d890600a64c79cf8
+    dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
+    managed: 0
+    loadable: 0
+  - assetGUID: 5b9fac241be038041b70ac7e84cd6151
+    dataGUID: 3082bbcb45b417041963b6b8562266c1
+    managed: 0
+    loadable: 0
+  - assetGUID: db60ffa92fa16ea478fc7ad4f595a0e6
+    dataGUID: 44e006873ca04f741b2ac3ba5dec92ad
+    managed: 0
+    loadable: 0
+  - assetGUID: 696edcc0ae48b72449b2be1a439a7afb
+    dataGUID: fb1b97eccf6db514999d1605baf017e5
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: DemoSpiderSpriteCollection
+    spriteCollectionGUID: 1fe2f34d6bac2b440944f04ac87d9e8a
+    spriteCollectionDataGUID: 822f1f9eedf119f4eaca33509ba7b549
+    spriteNames:
+    - body
+    - lowerleg
+    - mouth
+    - upperleg
+    spriteTextureGUIDs:
+    - 17a4fe5393d6f6048b0a96839cd54591
+    - 731aac236e6d1724fb48cd35227e8998
+    - 871eb2b697bff4f4e832b95668b9b3cc
+    - 75f62f68bfc69b04d876f87672036e09
+    spriteTextureTimeStamps:
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: DemoMultiAtlas
+    spriteCollectionGUID: 6abdf3241ce81204293a7d50f971e3d7
+    spriteCollectionDataGUID: e40f26e01721f87448061d44beed20dd
+    spriteNames:
+    - explosion_44FR/0
+    - explosion_44FR/1
+    - explosion_44FR/2
+    - explosion_44FR/3
+    - explosion_44FR/4
+    - explosion_44FR/5
+    - explosion_44FR/6
+    - explosion_44FR/7
+    - explosion_44FR/8
+    - explosion_44FR/9
+    - explosion_44FR/10
+    - explosion_44FR/11
+    - explosion_44FR/12
+    - explosion_44FR/13
+    - explosion_44FR/14
+    - explosion_44FR/15
+    - explosion_44FR/16
+    - explosion_44FR/17
+    - explosion_44FR/18
+    - explosion_44FR/19
+    - explosion_44FR/20
+    - explosion_44FR/21
+    - explosion_44FR/22
+    - explosion_44FR/23
+    - explosion_44FR/24
+    - explosion_44FR/25
+    - explosion_44FR/26
+    - explosion_44FR/27
+    - explosion_44FR/28
+    - explosion_44FR/29
+    - explosion_44FR/30
+    - explosion_44FR/31
+    - explosion_44FR/32
+    - explosion_44FR/33
+    - explosion_44FR/34
+    - explosion_44FR/35
+    - explosion_44FR/36
+    - explosion_44FR/37
+    - explosion_44FR/38
+    - explosion_44FR/39
+    - explosion_44FR/40
+    - explosion_44FR/41
+    - explosion_44FR/42
+    - explosion_44FR/43
+    spriteTextureGUIDs:
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    - f38c1e9651d69654c87ea0956466e36d
+    spriteTextureTimeStamps:
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    - 1377057598
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: DemoSpriteCollection
+    spriteCollectionGUID: 71d75aef51c47034082eca27f2eb6e30
+    spriteCollectionDataGUID: b5aec6ebd1a8ffc458a2e46a3236acab
+    spriteNames:
+    - bubble_green
+    - bubble_red
+    - bubble_orange
+    - sun
+    - bg
+    - smoke0
+    - smoke4
+    - smoke2
+    - smoke3
+    - smoke1
+    - explosion_beam
+    - smoke
+    - core
+    - bg1
+    - sheep_0
+    - sheep_1
+    - sheep_2
+    - cloud1
+    - cloud2
+    - Brown Block
+    - Chest Closed
+    - Stone Block
+    - Rock
+    - crate
+    - ground
+    - smoke5
+    - animdemo_4
+    - animdemo_5
+    - animdemo_1
+    - animdemo_3
+    - animdemo_2
+    - button_down
+    - button_up
+    - wavyground
+    - starspike
+    - platform
+    - platform_spiked
+    - 2dtoolkit_logo
+    - background
+    - slicedButton_down
+    - slicedButton_up
+    - attachpoint_glasses
+    - attachpoint_gun
+    - attachpoint_walk/0
+    - attachpoint_walk/1
+    - attachpoint_walk/2
+    - attachpoint_walk/3
+    - attachpoint_walk/4
+    - attachpoint_walk/5
+    spriteTextureGUIDs:
+    - 7aca923e78526cd4b984265f396e04d8
+    - bb6c9fb18b1dc46499fc0567ff873e42
+    - 4a3adedb01045d0458d6e6330d1dd25d
+    - 60ab1d7b85ae054498eb9122996758d9
+    - b5e1233ff1ab3d14a8b3e3910c4c8281
+    - c9b9253339e73124bbe3b5012f4bc936
+    - 39734a83ab620ae42b7fd778891e490e
+    - 287c70551d47fed40aaed1d763b2c586
+    - f54a71b7ee1fcd541859ccce61c15d4f
+    - e89d30fcbd3b3cb4f81b9f612565cd15
+    - 972d12151f1a30d4fb5c0457807734e9
+    - 6109dd1f0c6a20e40b9a5cc3cd4bbfaa
+    - 41539258830f7a24abc38d8bbe487af3
+    - 0d86fdb28836c6445974f98f412dfbf2
+    - c25d0635778cf614eb2cca727e071fd6
+    - d20c61a95bed34948a4408be780c3d55
+    - df162a39ace0bbb4dbbe4c348669075c
+    - 4a902aa2ec2deaa469755f61aa3e8134
+    - a329c3266c887ba44b0bf7c627043688
+    - 9fc5fcd3fc8803f4caf11d337579f6c8
+    - 6b3b26a1fb4ebcf448d47859ec1cb66f
+    - 2deb4cd15b4f4144894c8b9f4f1a19a3
+    - 82f0ed3ac7232ae4c8b948fb7654f205
+    - f6724743a506f464ea1684044c461aef
+    - 2f1986f4c79909a4ca592f02dec914e4
+    - 3fe04aba96e31d748a88af0fdc870d13
+    - 27e59c976f45f48488bd746d93f38085
+    - ce42d39374f446b43974cdf748be1594
+    - 7a1c114efdc6f1548b40b62b7666cf2e
+    - caa05169d2cbf6b4d8d7748e71781a40
+    - e84a1e8c2679c6347b789eb93ff1893f
+    - f31ec590f22df524e97e5d2f9139ec46
+    - a6bc359a914e1df468afe824439ede88
+    - abd2d4d8e662ace4c961589c5d18e01f
+    - fe18dfa9012243c4ea82497709a18b26
+    - c6c9f7d3fb91a8d4db53b929d3b367df
+    - 129360c4101c34f4f8a5650c70863c8c
+    - d4b13e5fdf4b0f540be8e00a364ddd35
+    - d87ec7b1d50a9164f85cac54c36371e8
+    - 8eecf2da5d1c91845ac19745f5828760
+    - e322d00650c45ff49ad06ce7a54418a6
+    - 67d25fa2d2d3a44e3a662cc8b83e1ee1
+    - 2733d522def134859aee48fa56620cc2
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    - fa207f7bcc782490fa19b3fa60b34f8e
+    spriteTextureTimeStamps:
+    - 1377057596
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057594
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057594
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057594
+    - 1377057594
+    - 1377057596
+    - 1377057594
+    - 1377057594
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    - 1377057596
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: DemoCameraSpriteCollection
+    spriteCollectionGUID: ff338294f6bf0b345850bad080ef85dc
+    spriteCollectionDataGUID: 4864518b0693631458553f73aaa86021
+    spriteNames:
+    - heart_empty
+    - heart_full
+    - heart_half
+    - window
+    spriteTextureGUIDs:
+    - c3cedcf3f2f726c4ea2af2b350a9ce88
+    - 5083dbb889212cf4082bbce0e506a093
+    - 775e311b21d73a74c93ca74a71671b1e
+    - 03fff0d1701d7e14399d5ee2209561dc
+    spriteTextureTimeStamps:
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    - 1377057594
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: UIDemoSpriteCollection
+    spriteCollectionGUID: 5d458a11aefe7ec43890453fbb141b28
+    spriteCollectionDataGUID: a7b2ba5d04adf144faffa96ff7497955
+    spriteNames:
+    - SlicedButton
+    - background
+    - SlicedButton_Hover
+    - InputItemBackground
+    - InputItemBackgroundHover
+    - CheckboxHighlight
+    - Checkbox_X
+    - Checkbox
+    - RadioButtonDot
+    - RadioButton
+    - RadioButtonHover
+    - DropDownButton
+    - InputItemBackgroundHoverSolid
+    - DropDownButtonHover
+    - ScrollbarButtonUpDown
+    - ScrollbarButtonUpDownHover
+    - ScrollbarThumbButton
+    - ScrollbarThumbButtonHover
+    - Scrollbar
+    - WhiteSquareAnchorTopLeft
+    - 
+    - WhiteSquare
+    spriteTextureGUIDs:
+    - 10b038b1b05b3d44998364213b44a84b
+    - cdb8375bd7d44bf4c91ea5d1757cbc23
+    - f3237190127778749a1642dc2a51c774
+    - c7b713dc540174c40a68af7867190a07
+    - a0607e12e73242f48a033d14fa2296a7
+    - a894d1cc513d8194b80c2ee2188a02f3
+    - 39bdc26444063be478543fbf0138d23e
+    - 9d92e7051c626e94b9b9cf19dcaa2a66
+    - a0b5fdbef0d8b8c498985af59a362e9f
+    - f633ebe752e68f44f984163a0b5f19b0
+    - 501566f271035e14ea9d5deca292ad9c
+    - accb00e270a9cec42addd7602ee0264c
+    - e4c720a60ede1944b957ba5ae82437bb
+    - 8b1d935dde7b96146bbc799a60202c2c
+    - bee881e7b06f83347a7986eaecec6ef3
+    - 2b9bd56306a6a814984f2763a3fb1c00
+    - 55998978b6504b14ba04ec09e5082488
+    - eeaa80b602fa40a42a265023dc9cc359
+    - 4334843461093dd42b9d4810d7595958
+    - 20bf45e2e89271c43b72895d440f6ab7
+    - 
+    - 197a84f0983385f41a1d2b3cb0a99dd9
+    spriteTextureTimeStamps:
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 1377057612
+    - 0
+    - 1377057612
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: TilemapdemoSpriteCollection
+    spriteCollectionGUID: 3c24cb31cb6f180469332c6b611fbde2
+    spriteCollectionDataGUID: f5e64bab9902aaa4593a2652b8552744
+    spriteNames:
+    - rocks/0
+    - rocks/1
+    - rocks/2
+    - rocks/3
+    - rocks/4
+    - rocks/5
+    - rocks/6
+    - rocks/7
+    - rocks/8
+    - rocks/9
+    - rocks/10
+    - rocks/11
+    - rocks/12
+    - rocks/13
+    - rocks/14
+    - rocks/15
+    - rocks/16
+    - rocks/17
+    - rocks/18
+    - rocks/19
+    - rocks/20
+    - rocks/21
+    - rocks/22
+    - rocks/23
+    - rocks/24
+    - rocks/25
+    - rocks/26
+    - rocks/27
+    - rocks/28
+    - coinIcon
+    - smallPlantIcon
+    - coin_0001
+    - coin_0002
+    - coin_0003
+    - coin_0004
+    - coin_0005
+    - coin_0006
+    - coin_0007
+    - coin_0008
+    - coin_0009
+    - coin_0010
+    - coin_0011
+    - coin_0012
+    - coin_0013
+    - coin_0014
+    - coin_0015
+    - coin_0016
+    - coin_0017
+    - coin_0018
+    - coin_0019
+    - player
+    - player_disabled
+    - blocker
+    spriteTextureGUIDs:
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - 3321301d154f97a4895a70fbb2f516db
+    - f9669c4878bb0457faae1278f922a8fb
+    - 0e83afcbf810b4a3083b1bc40bf10632
+    - ed4e27755606145119540aa1f40e8573
+    - 405c14b3dd718434dbacb3945458f90d
+    - 7f00ef65d8c1d4cae88cba15b733a07a
+    - eb9dd8d48e9594874b48920784e70ef0
+    - b34e64ed66b214727ae57be6e1e3d5e5
+    - 3761fccbada1248f794447a21a434c0f
+    - 258cdc34d93804d70b428087c3f8805d
+    - fe7429e30f1c9446aac350b30e864b1d
+    - c95f5192f996c453e82f8f8788947a97
+    - f5dcfce2fc7a44bcfa8710067aebdb38
+    - 2494c4e408a874a46a2602aa4f593417
+    - 714843c5e35ad497ea16ca22bf42f2ab
+    - e06142f46f9fe4582999bafa9dc40960
+    - cf3abded0b5874daeab801327a1945ce
+    - 79e88bc7ad84a469da17b781db36d979
+    - 8eac813a1d4ca4af4813568b22d501f9
+    - d51f36f3836684e5b98cffc1bb2fc27d
+    - ac9594eb4576b496394894763a3caa34
+    - a06b4afb82724467390888de8251fee2
+    - a882bc5b5d57946b6b95f0d5e35cdba9
+    - 501d2022a48b64cb09a5d51f14934d38
+    - 113be3445db084cd88073b16fbb9fff2
+    spriteTextureTimeStamps:
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057602
+    - 1377057600
+    - 1377057602
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: SpineboyAtlas
+    spriteCollectionGUID: e04ef676426682f4fbe2b2e248bc3dc4
+    spriteCollectionDataGUID: 4cd6560d5de81b240b7e7d9beaa3e2f0
+    spriteNames:
+    - left-ankle
+    - left-upper-leg
+    - head
+    - left-hand
+    - right-foot
+    - right-lower-leg
+    - neck
+    - left-arm
+    - left-pant-bottom
+    - right-shoulder
+    - right-ankle
+    - eyes-closed
+    - right-pant-bottom
+    - left-lower-leg
+    - right-hand
+    - torso
+    - pelvis
+    - eyes
+    - right-foot-idle
+    - left-shoulder
+    - right-arm
+    - right-upper-leg
+    - left-foot
+    spriteTextureGUIDs:
+    - 01e73ca366ce3b54bb4087bf34ea3780
+    - 110675c0d21d411469aff96dc86f82b9
+    - 14fa7cc064f366c46ba083cc8b3f6588
+    - 4164e461833c7ad4991d0df2f53506c5
+    - 4817e7545f82b79409591c3f7ab58783
+    - 4e48f3162f322954c99321c9888a56d2
+    - 5efaad89af5d0484a870721e289ba2f0
+    - 64d2ee256e7837243ae969fabe2abf13
+    - 6819bb1a487d4e7468d3cca3bc563455
+    - 95705e65b28f712498999597b1785815
+    - 96654d3edca33aa41b3e00836917fc81
+    - bab2bc2171d249048990e56ff8dc150e
+    - be58ee0714843a446b965af869f83832
+    - beb8b29b06f1b8a4bbe29f7ba3947435
+    - c8e415a8259d2a640956e800c693f696
+    - c9d347920dea372469c0bafcc27a6320
+    - da857df5d97ec254388f6aa337550084
+    - e8d06d84fe3fb0940aebd89e50186b67
+    - f4d80e5181dec264997165ae7dff99f8
+    - f54c1ea69e95f7b4686801f6e3479ae9
+    - f57516850db04ce46888c3af845cdbe1
+    - f6a659c035ea7cd4ca4b46b6f45dbe3e
+    - fdb6e092284153146b14ad82b936112c
+    spriteTextureTimeStamps:
+    - 1377057614
+    - 1377057616
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057616
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    - 1377057614
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BerserkerSprite
+    spriteCollectionGUID: 8f3581298017d6b469fbd4e0041d94b8
+    spriteCollectionDataGUID: afcf361090f356d45b05d766f12b5d93
+    spriteNames:
+    - body
+    - Psionic
+    - R-arm
+    - head
+    - L-foot
+    - R-shoulder
+    - R-hand
+    - R-foot
+    - L-shoulder
+    - L-arm
+    - L-hand
+    spriteTextureGUIDs:
+    - 00be672101963bd459d62cf71e1b72c7
+    - 2c3a3a11cc09b934a9a6fcbf6da7588e
+    - 4d5ef61ffcae78544a7b14b4293f29a1
+    - 7c6191b0a68280d42a57db8b3de0767c
+    - 93322510d620ef849a8dfaf7a06d02fd
+    - a147826fd028c794a87cc1ad83ac0d21
+    - bca1822b77a93614092587f42a5089b2
+    - c26ff56841474454ba5e6e4ee14bd68a
+    - c664420b58ebee045b200f6dbce7a7f9
+    - dc4449352d82ecc498a956209946f679
+    - e14aaca5a4afa24439e11b464f68ea11
+    spriteTextureTimeStamps:
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    - 1376950132
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapSpriteCollection
+    spriteCollectionGUID: bd9276340f820484e9dbd03a17677caa
+    spriteCollectionDataGUID: 3aa097b43eab9cd4e89a437f6b5dcaf9
+    spriteNames:
+    - "\uC624\uBE0C\uC81D\uD2B8 \uC608\uC2DC5"
+    - "\uAE30\uACC4_\uD0C0\uC77C_300"
+    - "\uC624\uBE0C\uC81D\uD2B8 \uC608\uC2DC6"
+    - "\uC624\uBE0C\uC81D\uD2B8 \uC608\uC2DC7"
+    - ingame_touchpoint
+    spriteTextureGUIDs:
+    - 625f3748793e0f94697ded13e146eed1
+    - a2af2980e1734a440b71cf0941b2afc5
+    - 36b700573ebcbbe43b1631c1d66b1dd9
+    - 6ddbe4f901fe2144585828b3794cf638
+    - 4e58ca6b0db8be547a9918d742c33b91
+    spriteTextureTimeStamps:
+    - 1377057590
+    - 1377057588
+    - 1377057590
+    - 1377057590
+    - 1377057590
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Obstacle01
+    spriteCollectionGUID: 889ba6e0fd94109499cc1228b3203417
+    spriteCollectionDataGUID: 5f4e2cf4df112824b800c988510a5eb5
+    spriteNames:
+    - supermerio_41
+    spriteTextureGUIDs:
+    - 3c751fd4f6dff4a4da8bf1aa90984a07
+    spriteTextureTimeStamps:
+    - 1377057588
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Bullet01
+    spriteCollectionGUID: e0d0c83bc68b63a478d117b519962618
+    spriteCollectionDataGUID: 541d5d997bfc8ca439370fb48f456f24
+    spriteNames:
+    - 14
+    - 13
+    - 6
+    - 10
+    - 2
+    - 1
+    - 7
+    - 8
+    - 9
+    - 12
+    - 15
+    - 4
+    - 16
+    - 11
+    - 5
+    - 3
+    spriteTextureGUIDs:
+    - 04f5baaf0f2d34646b23e330c7903704
+    - 14f8fe7ede93c074bb34dad5614e2aa4
+    - 22c543d21bcc1a34e82ddbf40e3c0dbb
+    - 260bb30914e94a24386be5f186bb21e4
+    - 288727bea0a51754db150df1614b2dcd
+    - 2f9ff09e5e6c2e84cb917a61913f074d
+    - 43ecc43700b204741a073db1fe1ea54e
+    - 47492513b643f1d4782edb22d9f665cd
+    - 6a774eccb1495294da92b840281f164e
+    - 732761a6228a2b94d864aa8c8b9cd19a
+    - 8e2be217c9b58be429a47250e6c1ce7d
+    - 9a475e9dc7c5e82489ca58b69a877925
+    - ab48a37940858974ab2ee71124a4a4dd
+    - b78e046017c45b54f9cfebe2852c5e16
+    - b7d0a5012e71ba2479e747d29ec05a98
+    - ca8d3ce837a1cbf43884cffc5811042a
+    spriteTextureTimeStamps:
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    - 1377057588
+    - 1377057586
+    - 1377057586
+    - 1377057588
+    - 1377057588
+    - 1377057588
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    - 1377057586
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapOutlineSpriteCollection1
+    spriteCollectionGUID: da764711d6857b4439c073828f2c67c7
+    spriteCollectionDataGUID: 8d577adb2d18b8c4caa0d75d8bf8b085
+    spriteNames:
+    - "\uD14C\uB450\uB9AC_\uC138\uB85C_2"
+    - "\uD14C\uB450\uB9AC_\uC138\uB85C_1"
+    - "\uD14C\uB450\uB9AC_\uBAA8\uC11C\uB9AC"
+    spriteTextureGUIDs:
+    - 0000aa9767917d44fa806f6975817dac
+    - 5a672f2deaa2fd346a1218eea7de5d32
+    - ca58cddb2fe5acb4ab50c42d6c45a266
+    spriteTextureTimeStamps:
+    - 1377057590
+    - 1377057590
+    - 1377057590
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapOutlineSpriteCollection2
+    spriteCollectionGUID: c461fbd1b29208a46bbc60bca4ee4e58
+    spriteCollectionDataGUID: 6f52413245e620a468553023791ccdfa
+    spriteNames:
+    - "\uD14C\uB450\uB9AC_\uC138\uB85C_4"
+    - "\uD14C\uB450\uB9AC_\uC138\uB85C_3"
+    spriteTextureGUIDs:
+    - a1ab96e5129ef92428061b558d13bd9d
+    - e22d131d29307ec41930a5134308960f
+    spriteTextureTimeStamps:
+    - 1377057590
+    - 1377057590
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapOutlineSpriteCollection3
+    spriteCollectionGUID: 5877ea6d602a2ed4289e6cecaf9edecb
+    spriteCollectionDataGUID: e8815990f830b8a4181ccf5815f6aedf
+    spriteNames:
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_1"
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_2"
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_3"
+    spriteTextureGUIDs:
+    - 0f8a27d29a2622b408998e8f6c8906d5
+    - 3f79e63d4abf64b40a511fc34cd99355
+    - 0e278347b5337224a92f9a61043d5029
+    spriteTextureTimeStamps:
+    - 1377057588
+    - 1377057588
+    - 1377057588
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapOutlineSpriteCollection4
+    spriteCollectionGUID: 57a2954d19a7768409202a4a9c6c5b6d
+    spriteCollectionDataGUID: 8edcfac45865ce94aa3529aef866a90f
+    spriteNames:
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_4"
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_5"
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_6"
+    spriteTextureGUIDs:
+    - 1367a0ac67363c14f947987dfd7ea565
+    - 46dfcef733329fd4380444e2bbb74933
+    - ae5bbe8cab55cb44cad6ca05dabf1028
+    spriteTextureTimeStamps:
+    - 1377057590
+    - 1377057590
+    - 1377057590
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MapOutlineSpriteCollection5
+    spriteCollectionGUID: d74a89d8daac56549bc7bc4fe908e704
+    spriteCollectionDataGUID: 855120b3ae4b50948b84789ad7f37922
+    spriteNames:
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_7"
+    - "\uD14C\uB450\uB9AC_\uAC00\uB85C_8"
+    spriteTextureGUIDs:
+    - bb0c72aa7b8f6a54182a79a4ee5bcd79
+    - f4291d4ab01269b4daacf91232c9d9c8
+    spriteTextureTimeStamps:
+    - 1376965466.01468
+    - 1376965465.98568
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: TouchPointSpriteCollection
+    spriteCollectionGUID: 79bc71f17e0b9e949810b801d6737650
+    spriteCollectionDataGUID: 91aa8cd045684624e9735277e01890f9
+    spriteNames:
+    - move_green out
+    - move_green in
+    - move_red out
+    - move_red in
+    spriteTextureGUIDs:
+    - 57d45131b800fab42b73b9659dee1c10
+    - 7228c59a2cf5d0541acb0d992238eca1
+    - 7379d78a63c4b3642b2816cb32f61c50
+    - e0844168388f0d54eabac832c53bd7c8
+    spriteTextureTimeStamps:
+    - 1377054344.30506
+    - 1377054344.30106
+    - 1377054344.32906
+    - 1377054344.32506
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PossessionSpriteCollection
+    spriteCollectionGUID: 0d5bfbc9de957ac4caf328d6984e9cf5
+    spriteCollectionDataGUID: 212cdbdbb6ce79940a48607e75106899
+    spriteNames:
+    - spy
+    spriteTextureGUIDs:
+    - 662956f3c6457d54aa1c26b294e279aa
+    spriteTextureTimeStamps:
+    - 1377035047.74336
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: UnitSelectSpriteCollector
+    spriteCollectionGUID: 9c2163e694afa1f4b9485c67961aee03
+    spriteCollectionDataGUID: 9b9fc5cf8f60ca8418e6ef59549ceb2f
+    spriteNames:
+    - "\uC720\uB2DB\uC120\uD0DD_\uCD08"
+    - "\uC720\uB2DB\uC120\uD0DD_\uBE68"
+    spriteTextureGUIDs:
+    - a92234060b193f34ab68b9a7bc0d3596
+    - fbe56a8e2253aab49afee45cba288c24
+    spriteTextureTimeStamps:
+    - 1377121292.10992
+    - 1377121292.12692
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

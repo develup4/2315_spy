@@ -1,0 +1,1 @@
+{"bones":[{"name":"root"}],"slots":[{"name":"Psionic","bone":"root","attachment":"Psionic"}],"skins":{"default":{"Psionic":{"Psionic":{"width":25,"height":25}}}},"animations":{"animation":{"slots":{"Psionic":{"attachment":[{"time":0,"name":"Psionic"},{"time":0.4333,"name":null},{"time":0.8333,"name":"Psionic"}]}}}}}

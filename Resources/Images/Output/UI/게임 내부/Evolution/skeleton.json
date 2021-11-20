@@ -1,0 +1,1 @@
+{"bones":[{"name":"root"}],"slots":[{"name":"Evolution","bone":"root","attachment":"Evolution"}],"skins":{"default":{"Evolution":{"Evolution":{"width":25,"height":25}}}},"animations":{"animation":{"slots":{"Evolution":{"attachment":[{"time":0,"name":"Evolution"},{"time":0.4333,"name":null},{"time":0.8333,"name":"Evolution"}]}}}}}

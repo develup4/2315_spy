@@ -21,7 +21,7 @@
 
 ![image](https://user-images.githubusercontent.com/8960704/222304198-36e18b5f-4ca4-4c2d-a684-52046c6161ee.png)
 ## 게임 설치 방법
-아쉽게도 마켓 출시는 이루어지지 않았습니다. Github 저장소에서 **Target** 경로의 `2315_spy.apk`를 안드로이드 기기로 옮기세요. 그리고 기기 내에서 이 파일을 실행시켜 인스톨하세요. 이 게임은 안드로이드 운영체제에서 설치가 가능하며, Galuxy S5를 기준을 개발되었습니다.
+아쉽게도 마켓 출시는 이루어지지 않았습니다. Github 저장소에서 **Target** 경로의 `2315_spy.apk`를 안드로이드 기기로 옮기세요. 그리고 기기 내에서 이 파일을 실행시켜 인스톨하세요. 이 게임은 안드로이드 운영체제에서 설치가 가능하며, Galuxy S5(1920*1080)를 기준을 개발되었습니다.
 
 
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/8960704/220623481-e33da57f-601a-4d94-9df0-b89779c51572.png">

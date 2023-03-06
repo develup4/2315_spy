@@ -25,6 +25,8 @@
 
 
 <img width="1019" alt="image" src="https://user-images.githubusercontent.com/8960704/220623481-e33da57f-601a-4d94-9df0-b89779c51572.png">
+
+
 # 개발 배경
 이 게임은 2013년 개발된 Unity 3D 엔진으로 작성된 `Mobile RTS Game`입니다. 삼성 소프트웨어 멤버십의 미니 프로젝트로 시작된 프로젝트로 안드로이드 기기를 타겟으로 개발된 모바일 게임입니다. 게임의 전체적인 테마는 스타크래프트에서 따왔지만, **어느 쪽도 이기지 않도록 하는 것**이 차별점입니다. 세 명의 프로그래머, 한 명의 기획자 그리고 가장 힘든 작업을 진행해 준 두 명의 디자이너에 의해 한달만에 개발되었습니다.
 ![image](https://user-images.githubusercontent.com/8960704/222302801-4e87e870-8e57-49f2-9422-ccdda1f039f4.jpeg)
